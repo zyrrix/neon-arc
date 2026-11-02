@@ -4,6 +4,6 @@ Neon Arc is an idle tower defense game with neon visuals, for Windows and Androi
 
 ## Cloud save
 
-Signing in with Google is optional. It backs up your progress to a Neon Arc folder in your own Google Drive, so you can pick up where you left off on another phone or PC.
+Your progress saves to the cloud with a guest account from the start. Create an account with your email to keep it safe and pick up where you left off on another phone or PC.
 
 [Privacy policy](privacy.html)
