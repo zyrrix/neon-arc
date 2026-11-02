@@ -14,13 +14,21 @@ The first time the game goes online, it makes a guest account for you, known by 
 
 Accounts are handled by Google Firebase Authentication, which stores your password securely; the game itself does not keep it. Your save, with the name of the device it came from, is stored in Google Cloud Firestore, and only your own account can read or change it.
 
+## Your player profile
+
+Other players can see your player profile: the player name you choose, your Player ID, your guild, and game statistics such as your highest wave, your best wave in each tier, runs played and time played. Your email address is never shown to other players.
+
+## Guilds
+
+If you join a guild, its members can see your name, your role and your weekly contribution. Messages you write in guild chat are stored so your guild can read them; you can delete your own messages, and the guild's Officers and Leader can delete messages too.
+
 ## What Neon Arc does not do
 
-Neon Arc has no ads, analytics or tracking. It does not sell or share your information with anyone. The only service it talks to is Google Firebase, for your account and your cloud save.
+Neon Arc has no ads, analytics or tracking. It does not sell or share your information with anyone outside the game. The only service it talks to is Google Firebase, for your account, your cloud save, your profile and guilds.
 
 ## Removing your data
 
-To have your account and its cloud save deleted, open an issue on the game's GitHub page and give your Player ID (shown under Settings, Account). You don't need to post your email address.
+To have your account, its cloud save and your profile deleted, open an issue on the game's GitHub page and give your Player ID (shown under Settings, Account). You don't need to post your email address.
 
 ## Contact
 
